@@ -4,16 +4,16 @@
     height: 100px;
     width: 98%;
     margin-left: 1%;
-    padding-top: 30px;
+    float: left;
 
 
 }
-.galeria
+.dshb
 {
     background-color: palevioletred;
-    height: 400px;
-    width: 98%;
-    margin-left: 1%;
+    height: 700px;
+    width: 80%;
+    margin-left: 10%;
 }
 .pie
 {
@@ -27,6 +27,25 @@
     text-align: center;
     padding-top: 5px;
 }
+.galeria
+{
+  height: 400px;
+  background-color: #c15b5b;
+  margin-top: 0px;
+}
+.prev
+{
+  height: 250px;
+  width: 250px;
+  float: left;
+  background-color: darkblue;
+}
+.prev:hover
+{
+  background-color: aqua;
+}
+
+/* menu empieza */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -36,7 +55,6 @@ nav {
   max-width: 960px;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
-  padding: 60px 0;
 }
 
 nav ul {
@@ -65,3 +83,4 @@ nav ul li a:hover {
   color: rgba(164, 102, 147, 0.7);
 }
 
+/* menu termina */
